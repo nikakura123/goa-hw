@@ -1,0 +1,1 @@
+print("nika","irina","koba","kurashvili","rolls/shaurma","11")
