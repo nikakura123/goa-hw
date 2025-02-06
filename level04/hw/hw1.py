@@ -1,0 +1,11 @@
+name1="843"
+name2="545"
+name3="475"
+name4="254"
+name5="877"
+name6="458"
+name7="577"
+name8="758"
+name9="578"
+name10="868"
+print(name1 + " " + name2 + " " + name3 + " "  + name4 + " " + name5 + " " + name6 + " " + name7 + " " + name8 + " " + name9 + " " + name10 )
