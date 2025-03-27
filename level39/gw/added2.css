@@ -1,0 +1,40 @@
+
+
+img{
+    font-family: Arial, sans-serif;
+    background-color: #1983d4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #66D2CE;
+    color: rgb(107, 24, 201);
+    padding: 15px;
+    font-size: 24px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #8d49c1;
+    font-size: 18px;
+    margin: 100px;
+}
+
+section {
+    padding: 20px;
+    background: rgb(235, 113, 113);
+    margin: 20px auto;
+    width: 80%;
+    max-width: 1000px;
+
+    border-radius: 1000px;
+}
+
+footer {
+    margin-top: 289px;
+    background-color: rgb(160, 47, 150)
+}

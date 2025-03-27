@@ -1,0 +1,23 @@
+/* 
+    1) შექმენით h1 და შეუცვალეთ ფერი მხოლოდ ფერის სახელის გამოყენებით.
+
+    2) შექმენით button და შეცვალეთ მისი ფონი(background) ფერი rgb model-ის გამოყენებით.
+
+    3) შექმენით button და შეცვალეთ მისი საზღვრის ფერი (border) მხოლოდ rgb model-ის გამოყენებით.
+
+    4) შექმენით paragraph და დაუმატეთ ჩრდილი.*/
+
+#h1{
+    color:rgb(0, 0, 255);
+}
+
+#button1{
+    background:rgb(151, 152, 153);
+}
+#button2{
+    border: 2px solid rgb(212, 17, 17);
+}
+
+#paragraph{
+    text-shadow: 20px 5px 2px;
+}

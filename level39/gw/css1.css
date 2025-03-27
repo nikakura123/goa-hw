@@ -1,0 +1,55 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Tektur:wght@400..900&display=swap');
+
+button{
+
+    background-color: red;
+    width: 150px;
+    height: 100px;
+    transition: 0.5s;
+    border-radius: 250px;
+    font-size: 20px;
+
+}
+
+button:hover{
+
+    background-color: rgb(81, 255, 0);
+    width: 200px;
+    border-radius: 250px;
+
+}
+button:active{
+
+    background-color: rgb(0, 191, 225);
+    width: 100px;
+    border-radius: 250px;
+
+}
+
+p{
+    text-align: center;
+    color: rgb(15, 120, 14);
+    font-size: 20px;
+    font-family: 'Tektur';
+}
+
+#h0{
+    
+    text-align: center;
+    color: rgb(200, 7, 7);
+    font-size: 100px;
+    font-family: 'Big Shoulders Stencil', 'cursive';
+
+}
+
+h1{
+
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    font-family: 'Big Shoulders Stencil';
+}

@@ -29,3 +29,4 @@ def min_item(num_list):
             min_list = i
     return min_list
 print(min_item([1024,360,202,4]))
+
