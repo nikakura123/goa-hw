@@ -1,0 +1,56 @@
+
+/* 
+შექმენი ღილაკი, რომელიც ჰოვერისას გაზრდის border-ს და შეცვლის padding-ს ისე, 
+რომ ზომა არ შეიცვალოს.
+
+შექმენი div, რომელსაც ექნება განსხვავებული padding ოთხივე მხარეს
+(მაგალითად, top: 10px, right: 20px, bottom: 30px, left: 40px).
+
+შექმენი div კონტეინერი, რომელშიც იქნება div შიგნით. გარეთა div უნდა ჰქონდეს დიდი margin, 
+ხოლო შიგნითას padding, რომ ტექსტი არ მიედოს საზღვრებს. */
+
+
+button{
+    
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 15px solid black;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+
+button:hover {
+
+    border: 20px solid black;
+    padding: 15px;
+    transition: all 0.3s ease;
+    text-align: center;
+
+}
+
+
+div{
+    
+        padding: 20px 29px 3px 10px;
+        background-color: lightblue;
+        border: 1px solid black;
+        margin: 10px;
+
+}
+
+#divori{
+    
+    padding: 20px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}

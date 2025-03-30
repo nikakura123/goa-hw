@@ -1,0 +1,35 @@
+/* level 41 - საკლასო დავალება
+
+1. შექმენი div, რომლის შიგნით არის ტექსტი. დაამატე padding, რომ ტექსტი არ იყოს კედლებთან ახლოს.
+
+2. შექმენი 3 div, თითოეულს დაამატე სხვადასხვა ტიპის border (solid, dashed, dotted). 
+
+3. შექმენი რამდენიმე div, რომლებიც ერთმანეთთან ძალიან ახლოს არიან. გამოიყენე margin, რომ მათ შორის გაჩნდეს სივრცე.
+
+4. შექმენი div, რომელიც იქნება 200px × 200px ზომის. დაამატე padding, border და margin და შეამოწმე, რამდენად გაიზრდება საერთო ზომა.
+
+5. შექმენი div კონტეინერი, რომლის შიგნით იქნება 3 პატარა div. თითოეულ მათგანს დაუწერე სხვადასხვა ფერი, padding, margin და border და დააკვირდი, როგორ მოქმედებს Box Model.  */
+
+#div1 {
+    padding: 20px;
+    border: solid rgb(255, 0, 0);
+    margin:10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+
+#div2 {
+    padding: 35px;
+    border: dotted rgb(0, 255, 162);
+    margin:10px;
+    text-align: center;
+}
+
+#div3 {
+    padding: 30px;
+    border: dashed rgb(132, 0, 255);
+    margin:10px;
+    text-align: center;
+}
